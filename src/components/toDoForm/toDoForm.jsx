@@ -7,7 +7,7 @@ export default function ToDoForm({ todos, setTodos }) {
     <form
       onSubmit={e => {
         e.preventDefault();
-        setTodos([...todos, newTodo]);
+        setTodos([...todos, { text: newTodo }]);
         setNewToDo("");
       }}
     >

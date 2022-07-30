@@ -7,3 +7,12 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.complete {
+  text-decoration: line-through;
+}
+
+.options {
+  display: flex;
+  gap: 1rem;
+}
