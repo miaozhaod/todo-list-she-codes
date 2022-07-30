@@ -1,9 +1,6 @@
 import React from "react";
+import "./toDoItem.css";
 
 export default function ToDoItem({ item }) {
-  return (
-    <div>
-      <h1>{item}</h1>
-    </div>
-  );
+  return <div className="todo">{item}</div>;
 }
