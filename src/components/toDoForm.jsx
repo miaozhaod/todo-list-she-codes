@@ -8,6 +8,7 @@ export default function ToDoForm({ todos, setTodos }) {
       onSubmit={e => {
         e.preventDefault();
         setTodos([...todos, newTodo]);
+        setNewToDo("");
       }}
     >
       <input
